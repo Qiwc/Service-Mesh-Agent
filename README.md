@@ -4,7 +4,7 @@
 
 本次比赛是本人第一次参与程序设计类比赛，两名队友来自浙江大学人工智能实验室，我来自上海交通大学机电所。此刻我们三人已经研一下，对于未来十分迷茫，希望通过比赛为自己挣一份简历。
 
-![image-20190309181028984](/Users/qiwenchao/Library/Application Support/typora-user-images/image-20190309181028984.png)
+![image](https://github.com/Qiwc/Service-Mesh-Agent/blob/master/images/1.jpg)
 
 初赛，我们使用JAVA，全代码建立在Netty基础上，看完[《Netty实战》](https://github.com/waylau/essential-netty-in-action)就直接上手干了！当然看之前要懂JAVA NIO，特别是Selector，才能理解Netty线程模型。
 
@@ -18,7 +18,7 @@
 
 ### 2 结构
 
-![struct](/Users/qiwenchao/Downloads/Service-Mesh-Agent/struct.png)
+![image](https://github.com/Qiwc/Service-Mesh-Agent/blob/master/images/struct.png)
 
 - 每个Agent既要作为服务端又要作为客户端，这期间要做协议转换。为了通用性，CA与PA之间的协议用的Google的ProtoBuf。
 - 所有链接均采用长链接，省去重复握手挥手时间
